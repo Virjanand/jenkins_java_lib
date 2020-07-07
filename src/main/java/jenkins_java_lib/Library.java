@@ -5,6 +5,7 @@ package jenkins_java_lib;
 
 public class Library {
     public boolean someLibraryMethod() {
+        System.out.println("Hello multibranching!");
         return true;
     }
 }
